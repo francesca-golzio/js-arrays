@@ -11,13 +11,13 @@ const teachers = [
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
 
-const reversedTeachers = [null];
+const reversedTeachers = [];
 //console.log(teachers);
 
-for(let i = teachers.length; i >= 0; i--) {
-  //console.log(i);
-  reversedTeachers.push(teachers[i])
-  //console.log(reversedTeachers);
+for(let i = teachers.length; i > 0; i--) {
+  console.log(i);
+  reversedTeachers.push(teachers[i-1])
+  console.log(reversedTeachers);
 };
 
 
@@ -36,7 +36,7 @@ for(i = 0; i < teachers.length; i++) {
   if(teachers[i].length >= 5) {
     longNames.push(teachers[i])
   }
-  
+
 }
 
 
