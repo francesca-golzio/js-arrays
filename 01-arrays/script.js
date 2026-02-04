@@ -36,12 +36,18 @@ const firstTeacher = teachers.shift();
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 //console.log(teachers);
-const newTeacher = teachers.push('Vanessa')
+/*salva in const          |  operazione richiesta */ 
+const TeacherPushedToEnd = teachers.push('Vanessa')
 //console.log(teachers);
 
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+console.log(teachers);
+/* salva in const          |  operazione richiesta */ 
+const TeacherAddedToStart = teachers.unshift('Sarah')
+console.log(teachers);
+
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
